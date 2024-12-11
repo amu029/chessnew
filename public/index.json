@@ -1,65 +1,69 @@
 {
-    "grandmasters": [
-      {
-        "name": "Magnus Carlsen",
-        "country_of_origin": "Norway",
-        "titles_held": ["World Champion"],
-        "peak_elo_rating": 2882,
-        "number_of_games_played": 3102,
-        "total_wins": 1256,
-        "active_years": {
-          "start_year": 2004,
-          "end_year": null
-        }
+  "grandmasters": [
+    {
+      "name": "Magnus Carlsen",
+      "country_of_origin": "Norway",
+      "titles_held": ["World Champion"],
+      "peak_elo_rating": 2882,
+      "number_of_games_played": 3102,
+      "total_wins": 1256,
+      "active_years": {
+        "start_year": 2004,
+        "end_year": null
       },
-      {
-        "name": "Garry Kasparov",
-        "country_of_origin": "Russia",
-        "titles_held": ["World Champion"],
-        "peak_elo_rating": 2851,
-        "number_of_games_played": 2582,
-        "total_wins": 1072,
-        "active_years": {
-          "start_year": 1976,
-          "end_year": 2005
-        }
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/MagnusCarlsen24.jpg"
+    },
+    {
+      "name": "Garry Kasparov",
+      "country_of_origin": "Russia",
+      "titles_held": ["World Champion"],
+      "peak_elo_rating": 2851,
+      "number_of_games_played": 2582,
+      "total_wins": 1072,
+      "active_years": {
+        "start_year": 1976,
+        "end_year": 2005
       },
-      {
-        "name": "Bobby Fischer",
-        "country_of_origin": "United States",
-        "titles_held": ["World Champion"],
-        "peak_elo_rating": 2785,
-        "number_of_games_played": 741,
-        "total_wins": 356,
-        "active_years": {
-          "start_year": 1957,
-          "end_year": 1972
-        }
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kasparov-34.jpg"
+    },
+    {
+      "name": "Bobby Fischer",
+      "country_of_origin": "United States",
+      "titles_held": ["World Champion"],
+      "peak_elo_rating": 2785,
+      "number_of_games_played": 741,
+      "total_wins": 356,
+      "active_years": {
+        "start_year": 1957,
+        "end_year": 1972
       },
-      {
-        "name": "Anatoly Karpov",
-        "country_of_origin": "Russia",
-        "titles_held": ["World Champion"],
-        "peak_elo_rating": 2780,
-        "number_of_games_played": 3105,
-        "total_wins": 1119,
-        "active_years": {
-          "start_year": 1969,
-          "end_year": 2009
-        }
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bobby_Fischer_1972.jpg/800px-Bobby_Fischer_1972.jpg"
+    },
+    {
+      "name": "Anatoly Karpov",
+      "country_of_origin": "Russia",
+      "titles_held": ["World Champion"],
+      "peak_elo_rating": 2780,
+      "number_of_games_played": 3105,
+      "total_wins": 1119,
+      "active_years": {
+        "start_year": 1969,
+        "end_year": 2009
       },
-      {
-        "name": "Viswanathan Anand",
-        "country_of_origin": "India",
-        "titles_held": ["World Champion"],
-        "peak_elo_rating": 2817,
-        "number_of_games_played": 2956,
-        "total_wins": 1168,
-        "active_years": {
-          "start_year": 1984,
-          "end_year": null
-        }
-      }
-    ]
-  }
-  
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Anatoly_Karpov_%281967%29.jpg/800px-Anatoly_Karpov_%281967%29.jpg"
+    },
+    {
+      "name": "Viswanathan Anand",
+      "country_of_origin": "India",
+      "titles_held": ["World Champion"],
+      "peak_elo_rating": 2817,
+      "number_of_games_played": 2956,
+      "total_wins": 1168,
+      "active_years": {
+        "start_year": 1984,
+        "end_year": null
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/VAnand07.jpg/800px-VAnand07.jpg"
+    }
+  ]
+}
