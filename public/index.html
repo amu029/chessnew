@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Amulya Gadde - Portfolio</title>
    <style>
     :root {
@@ -70,7 +71,6 @@ nav a {
     border-left: 1px solid #b49a8d; 
     text-align: center; 
 }
-
 .profile-container {
     display: grid;
     grid-column: 1/4; 
@@ -367,6 +367,41 @@ footer img {
     object-fit: contain; 
     vertical-align: middle; 
 }
+/* Show the hamburger icon only on mobile (max-width 500px) */
+@media (max-width: 500px) {
+    nav {
+        grid-template-rows: 1fr;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Initially hide menu links on mobile */
+    nav a:not(.iconn) {
+        display: none;
+    }
+
+    /* Show hamburger menu icon */
+    .iconn {
+        display: block;
+        font-size: 30px;
+        color: white;
+        float: right;
+        cursor: pointer;
+    }
+
+    /* When menu is active (responsive class added) */
+    nav.responsive a {
+        display: block;
+    }
+}
+
+/* Hide hamburger icon on desktop */
+@media (min-width: 501px) {
+    .iconn {
+        display: none;
+    }
+}
 @media (max-width: 500px) {
     .main-content {
         grid-template-columns: 1fr;
@@ -473,13 +508,16 @@ footer img {
    </style>
 </head>
 <body>
-
-    <nav>
+    <nav id="ResponsiveMenu">
         <a href="#profile">Overview</a>  
         <a href="#education">Education & Experience</a> 
         <a href="#projects">Projects</a>
         <a href="#research">Research & Blog</a>
         <a href="#achievements">Achievements</a>
+        <!-- Hamburger icon for mobile -->
+        <a href="javascript:void(0);" class="iconn" onclick="myFunction()">
+            <i class="fa fa-bars"></i>  <!-- Hamburger icon -->
+        </a>
     </nav>
     
  
@@ -648,5 +686,15 @@ footer img {
             <img src="./images/design4.png" alt="Design Image 5" />
         </footer>
     </div>
+    <script>
+            function myFunction() {
+        var x = document.getElementById("ResponsiveMenu");
+        if (x.className === "") {
+            x.className = "responsive";  
+        } else {
+            x.className = "";  
+        }
+    }
+    </script>   
 </body>
 </html>
